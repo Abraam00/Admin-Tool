@@ -1,0 +1,14 @@
+#logonDiv{
+    max-width: 25%;
+    margin-top: 20%;
+    margin-left: 38%;
+}
+
+#passwordInput{
+    margin-bottom: 5%;
+}
+
+#submitButton{
+    margin-left: 35%;
+    margin-top: 2%;
+}

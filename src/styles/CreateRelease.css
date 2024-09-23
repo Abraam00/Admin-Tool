@@ -1,0 +1,14 @@
+#buildDiv{
+    max-width: 30%;
+    margin-left: 36% ;
+
+}
+#submitButton{
+    margin-left: 39%;
+    margin-top: 5%;
+    background-color: rgb(55, 209, 83);
+}
+#addReleaseGroup{
+    margin-left: 28%;
+    margin-top: 5%;
+}
