@@ -12,4 +12,10 @@ const buttonNames = [
 	"Delete Application",
 ];
 
+const appNames = ["app1", "app2", "app3", "app4", "app5"];
+
 export default buttonNames;
+
+export function getAppNames() {
+	return appNames;
+}

@@ -4,6 +4,7 @@ import { React, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ClipLoader } from "react-spinners"; // Import the spinner
 import buttonNames from "../utils/Constants";
+import Navbar from "./NavBar";
 
 const RequestsCollection = () => {
     const [loading, setLoading] = useState(false); // Loading state
@@ -28,6 +29,9 @@ const RequestsCollection = () => {
     }
 
     return (
+        <>
+        <Navbar/>
+        
         <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
             <div className="row">
                 {buttonNames.map((name, index) => (
@@ -43,6 +47,7 @@ const RequestsCollection = () => {
                 ))}
             </div>
         </div>
+        </>
     );
 };
 
