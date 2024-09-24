@@ -44,7 +44,7 @@ const Delete = ({ fieldName }) => {
                     />
                 </div>
                 <button
-                    id="submitButton"
+                    id="deleteButton"
                     type="button"
                     className="btn btn-primary btn-lg"
                     onClick={handleSubmitButtonClick}
